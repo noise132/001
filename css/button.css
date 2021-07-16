@@ -1,0 +1,27 @@
+
+
+
+.button-wrapper {
+	height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+	width: 420px;
+	height: 420px;
+	border-radius: 10px;
+	background-color: #D5EAEB;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: 0.4s ease;
+}
+
+.button:hover {
+	width: 500px;
+	height: 500px;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+
+/*https://codepen.io/sdthornton/pen/wBZdXq*/
